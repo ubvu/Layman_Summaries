@@ -13,8 +13,27 @@ The summaries are then saved in both CSV and Excel formats, making them easy to 
 ## Getting Started
 
 ### Requirements
+Before you begin, you'll need to have the following:
 
-Before you begin, you'll need to have Python installed on your computer. You can download it from the [official Python website](https://www.python.org/downloads/). This script requires Python 3.6 or later.
+1. Git installed on your machine. You can download it from the [official Git website](https://git-scm.com/downloads).
+
+2. Python installed on your computer. You can download it from the [official Python website](https://www.python.org/downloads/). This script requires Python 3.6 or later.
+
+#### Copy this code
+
+Once you have Git and Python installed, clone the project's repository from GitHub using the following command in your terminal:
+
+```bash
+git clone https://github.com/ubvu/Layman_Summaries.git
+```
+
+Then navigate into the project's directory:
+
+```bash
+cd Layman_Summaries
+```
+
+#### Create a Virtual Python Environment
 
 It's recommended to use a virtual environment for running this script to avoid conflicts with your system's Python packages.
 
@@ -56,13 +75,13 @@ It's recommended to use a virtual environment for running this script to avoid c
 
 The script uses a YAML configuration file, `config.yaml`, which should be in the same directory as the script. This configuration file contains several parameters:
 
-- `openai_api_key`: Your OpenAI API key. You can find your API key in your OpenAI account at `https://platform.openai.com/account/api-keys`.
+- `openai_api_key`: Your OpenAI API key. You can find your API key in your OpenAI account at [https://platform.openai.com/account/api-keys].
 
-- `aimodel`: The AI model to use. Options include `gpt-3.5-turbo` and `gpt-4`. For more Chat Completion models, check `https://platform.openai.com/docs/models/continuous-model-upgrades`.
+- `aimodel`: The AI model to use. Options include `gpt-3.5-turbo` and `gpt-4`. For more Chat Completion models, check [https://platform.openai.com/docs/models/continuous-model-upgrades].
 
 - `max_tokens`: The maximum number of tokens in the generated summaries. Depending on the complexity of the abstract, you may need to adjust this number. Note that the OpenAI API has a maximum limit.
 
-- `data_url`: The URL from which to fetch data. The provided URL is for the OpenAIRE API, fetching content from the Netherlands Research Portal.
+- `data_url`: The URL from which to fetch data. The provided URL is for the OpenAIRE API, fetching content from the Netherlands Research Portal. For more parameters check the OpenAIRE API documentation [https://graph.openaire.eu/develop/api.html#rproducts]
 
 - `audiences`: A list of audience types and their corresponding system messages. Each audience item has two properties: `name` and `message`. `name` refers to the name of the audience (e.g., "Child", "Journalist"), and `message` contains instructions for the AI on how to create the summary tailored for that audience.
 
@@ -84,7 +103,7 @@ Here is an example of how to run the script in the command line with parameters:
 python run_as_cli.py --data_url https://api.openaire.eu/search/researchProducts?format=json&doi=10.1364/josaa.465900 --aimodel gpt-4 --max_tokens 200
 ```
 
-The script will fetch the data, generate the summaries, and print the first 10 rows of the DataFrame in the command line.
+The script will fetch the data, generate the summaries, save the files and print the first 10 rows of the DataFrame in the command line.
 
 ### Running the Script in the Graphical User Interface (GUI)
 
@@ -98,7 +117,7 @@ python run_as_gui.py
 
 The GUI will display fields for `AI Model`, `Max Tokens`, and `Data URL`. These fields are pre-filled with the default values from the `config.yaml` file. You can change these values directly in the GUI.
 
-Once you've set the desired parameters, click the `Generate Summaries` button. The script will fetch the data, generate the summaries, and display the summaries in the GUI.
+Once you've set the desired parameters, click the `Generate Summaries` button. The script will fetch the data, generate the summaries, safe the fimes and display the summaries in the GUI.
 
 ## License
 
