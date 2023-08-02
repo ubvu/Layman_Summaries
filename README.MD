@@ -16,12 +16,6 @@ The summaries are then saved in both CSV and Excel formats, making them easy to 
 
 Before you begin, you'll need to have Python installed on your computer. You can download it from the [official Python website](https://www.python.org/downloads/). This script requires Python 3.6 or later.
 
-For the graphical user interface (GUI), you'll need the tkinter library, which is included in standard Python installations. If you don't have it, you can install it with the following command:
-
-```bash
-python -m pip install tk
-```
-
 It's recommended to use a virtual environment for running this script to avoid conflicts with your system's Python packages.
 
 1. Create a virtual environment:
@@ -108,9 +102,7 @@ Once you've set the desired parameters, click the `Generate Summaries` button. T
 
 ## License
 
-This project is licensed under CC0.
-
-=========
+This project is licensed under CC0 1.0 Universal.
 
 ## Troubleshooting
 
