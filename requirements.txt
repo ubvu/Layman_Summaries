@@ -1,0 +1,7 @@
+requests
+openai
+pandas
+json
+openpyxl
+pyyaml
+os

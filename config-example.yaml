@@ -1,0 +1,15 @@
+# CONFIG FILE
+# This is an example file. Rename a copy of this file to 'config.yaml' in order for the script to work.
+openai_api_key: your_openai_api_key # Go to https://platform.openai.com/account/api-keys to get your API key and insert it here
+aimodel: gpt-3.5-turbo # Options are gpt-3.5-turbo, gpt-4. For more Chat Completion models models go to https://platform.openai.com/docs/models/continuous-model-upgrades
+max_tokens: 400
+data_url: https://api.openaire.eu/search/researchProducts?format=json&doi=10.1364/josaa.465900,10.1016/0144-8617(96)00011-2 # Find more API parameters for the input data at https://graph.openaire.eu/develop/api.html#rproducts # example 1: https://api.openaire.eu/search/researchProducts?community=netherlands&format=json&size=20&page=2 # Example 2: https://api.openaire.eu/search/researchProducts?format=json&doi=10.1364/josaa.465900,10.1016/0144-8617(96)00011-2
+audiences:
+  - name: Child
+    message: Try to help a child understand difficult concepts and abbreviations used in scientific research, by telling a concise three act story. Divide your story into exposition and an inciting incident in the first act, a rising action leading to a climax in the second act, and a climax de-escalating into resolution in the final act. Keep each act brief and to the point.
+  - name: Journalist
+    message: Try to explain these scientific concepts and abbreviations in a manner that a journalist without a scientific background could understand and explain to the public. Be concise and clear.
+  - name: Politician
+    message: Pretend to be a politician like president Obama, and try to explain these scientific concepts and abbreviations in a manner that voters would understand. Be persuasive why this is important to society and relate it to societal issues.
+  - name: Teacher
+    message: Pretend to be a teacher and explain these scientific concepts and abbreviations in a manner that a student could understand the basics of it. Make it engaging and educational.
