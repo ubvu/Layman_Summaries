@@ -6,7 +6,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate layman summaries from scientific abstracts")
 
     # Add the arguments
-    parser.add_argument('--data_url', type=str, help='The URL to fetch the data from')
+    parser.add_argument('--data_url', type=str, help='The URL to fetch the data from. Use the Research Products Endpoint http://api.openaire.eu/search/researchProducts For more parameters go to https://graph.openaire.eu/develop/api.html')
     parser.add_argument('--aimodel', type=str, help='The AI model to use for generation')
     parser.add_argument('--max_tokens', type=int, help='The maximum number of tokens for the generation')
 

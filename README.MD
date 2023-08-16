@@ -2,7 +2,7 @@
 
 This script generates layman summaries from scientific abstracts using a large language model from OpenAI's GPT-4. As input, the script uses the API from OpenAIRE to get content from the Netherlands Research Portal.
 
-Authors: Maurice Vanderfeesten and OpenAI's GPT-4 model
+Authors: Maurice Vanderfeesten, assisted by OpenAI's GPT-4 model code generator.
 
 ## Purpose
 
@@ -86,6 +86,9 @@ The script uses a YAML configuration file, `config.yaml`, which should be in the
 - `audiences`: A list of audience types and their corresponding system messages. Each audience item has two properties: `name` and `message`. `name` refers to the name of the audience (e.g., "Child", "Journalist"), and `message` contains instructions for the AI on how to create the summary tailored for that audience.
 
 A sample configuration file, `config-example.yaml`, is provided. To use it, rename `config-example.yaml` to `config.yaml` and fill in your OpenAI API key and other preferences.
+
+## Usage
+To use the script can by either using the command line or a simple GUI
 
 ### Running the Script in the Command Line
 
