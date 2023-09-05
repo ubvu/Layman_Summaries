@@ -3,6 +3,7 @@
 This script generates layman summaries from scientific abstracts using a large language model from OpenAI's GPT-4. As input, the script uses the API from OpenAIRE to get content from the Netherlands Research Portal.
 
 Authors: Maurice Vanderfeesten, assisted by OpenAI's GPT-4 model code generator.
+[Coding conversation with ChatGTP](https://chat.openai.com/share/5334616a-e47f-4da9-b3d9-c6f989ff3adf)
 
 ## Purpose
 
