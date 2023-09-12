@@ -14,7 +14,7 @@ Check the [*results* folder](https://github.com/ubvu/Layman_Summaries/tree/main/
 Authors: Maurice Vanderfeesten, assisted by OpenAI's GPT-4 model code generator.
 [Coding conversation with ChatGTP](https://chat.openai.com/share/5334616a-e47f-4da9-b3d9-c6f989ff3adf)
 
-![Illustrate a friendly looking robot explaining a story from a book to a farmer. In the background a fairytale farm. Generated with https://beta.dreamstudio.ai](./images/975371_Illustrate%20a%20friendly%20looking%20robot%20explaining%20a%20s_xl-1024-v1-0.png)
+![Two friendly looking robots sitting on a bench. One reading a story from a book to the other. | Generated with https://beta.dreamstudio.ai | Prompt: Illustrate a friendly looking robot explaining a story from a book to a farmer. In the background a fairytale farm.](./images/975371_Illustrate%20a%20friendly%20looking%20robot%20explaining%20a%20s_xl-1024-v1-0.png)
 
 ## Purpose
 
