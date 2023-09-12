@@ -1,6 +1,15 @@
 # Layman Summary Generator for Abstracts of Research Papers
 
-This script generates layman summaries from scientific abstracts using a large language model from OpenAI's GPT-4. As input, the script uses the API from OpenAIRE to get content from the Netherlands Research Portal.
+Want an abstract of a research paper rewritten, so a child can understand?
+
+Together with ChatGPT we wrote a GPT Layman Summary Generator 
+https://github.com/ubvu/Layman_Summaries 
+
+This script generates layman summaries from scientific abstracts using a large language model from OpenAI. As input, the script uses the API from OpenAIRE to get content from the Netherlands Research Portal.
+
+You can change the prompts in the config file, to rewrite the abstract for different audiences. Currently we generate summaries for a journalist as  a press release, rewriting it as a children story, and even Trump-style.
+
+Check the [*results* folder](https://github.com/ubvu/Layman_Summaries/tree/main/results) for some examples.
 
 Authors: Maurice Vanderfeesten, assisted by OpenAI's GPT-4 model code generator.
 [Coding conversation with ChatGTP](https://chat.openai.com/share/5334616a-e47f-4da9-b3d9-c6f989ff3adf)
