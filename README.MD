@@ -5,6 +5,8 @@ This script generates layman summaries from scientific abstracts using a large l
 Authors: Maurice Vanderfeesten, assisted by OpenAI's GPT-4 model code generator.
 [Coding conversation with ChatGTP](https://chat.openai.com/share/5334616a-e47f-4da9-b3d9-c6f989ff3adf)
 
+![Illustrate a friendly looking robot explaining a story from a book to a farmer. In the background a fairytale farm. Generated with https://beta.dreamstudio.ai](./images/975371_Illustrate%20a%20friendly%20looking%20robot%20explaining%20a%20s_xl-1024-v1-0.png)
+
 ## Purpose
 
 The purpose of this script is to make complex scientific abstracts understandable to a broader audience. It generates summaries tailored for four specific audiences: children, journalists, politicians, and teachers. The script uses OpenAI's GPT-4 language model to generate these summaries.
